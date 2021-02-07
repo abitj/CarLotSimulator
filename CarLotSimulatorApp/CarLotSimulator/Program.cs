@@ -59,6 +59,7 @@ namespace CarLotSimulator
             aguerCar.MakeEngineNoise();
 
             Console.WriteLine(".........................................");
+            Console.WriteLine($"Number of cars created  {CarLot.numberOfCar}");
 
             foreach (var car in lot.CarList)
             {
